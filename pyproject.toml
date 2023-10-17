@@ -1,0 +1,17 @@
+[project]
+name = "pyhwpx"
+version = "0.1.0"
+description = "python hwpx/OWPML parser"
+authors = [
+    {name = "nonbanana", email = "mbin96@gmail.com"},
+]
+dependencies = [
+    "xmltodict>=0.13.0",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
